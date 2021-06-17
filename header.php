@@ -42,7 +42,7 @@
 
 <div class="homepage__svgcontainer">
 
-<svg version="1.1" id="Laag_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<svg version="1.1" id="Laag_1" class="site-header--svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 1995.6 1117.7" style="enable-background:new 0 0 1995.6 1117.7;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#A34694;}
@@ -58,9 +58,7 @@
 <g id="Laag_7">
 	<rect x="164.1" y="32.9" class="st0" width="1595.3" height="819.6"/>
 	<g>
-		
-			<image style="overflow:visible;enable-background:new;" width="1393" height="716" id="N5VSIe" xlink:href="./wp-content/themes/lowres/assets/svg/3C44367797B294F9.jpg"  transform="matrix(1.294 0 0 1.294 73.4205 -1.2709)">
-		</image>
+		<image style="overflow:visible;enable-background:new;" class="imageheader" width="1393" height="716" id="N5VSIe" href="./wp-content/themes/lowres/assets/carousel/02.jpg"  transform="matrix(1.294 0 0 1.294 73.4205 -1.2709)"></image>
 	</g>
 </g>
 <g id="bg_1" class="st1">
@@ -1880,6 +1878,32 @@
 				)
 			);
 			?>
+			</div>
+
+			<div class="navigation__mobile-icon">
+				<svg x="0px" y="0px" viewBox="0 0 100 125" class="menu__iconself" height="30px">
+					<g transform="translate(0,-952.36218)">
+						<path style="text-indent:0;text-transform:none;direction:ltr;block-progression:tb;baseline-shift:baseline;color:#000000;enable-background:accumulate;" d="m 11,972.36219 0,10 78,0 0,-10 z m 0,25.00012 0,9.99999 78,0 0,-9.99999 z m 0,24.99989 0,10 78,0 0,-10 z" fill="#000000" fill-opacity="1" stroke="none" marker="none" visibility="visible" display="inline" overflow="visible"/></g>
+				</svg>
+			</div>			
+
+			<div class="navigation__mobile">
+				<svg class="navigation__mobile-close" viewBox="0 0 44 55" version="1.1" x="0px" y="0px">
+					<g stroke="none" stroke-width="1" fill="white" fill-rule="evenodd">
+						<g transform="translate(-641.000000, -146.000000)">
+							<path d="M663.146447,170.974874 L653.605781,180.515539 C652.822932,181.298388 651.553127,181.301864 650.772078,180.520815 C649.985584,179.734321 649.993391,178.471075 650.777354,177.687112 L660.318019,168.146447 L650.777354,158.605781 C649.994505,157.822932 649.991029,156.553127 650.772078,155.772078 C651.558572,154.985584 652.821819,154.993391 653.605781,155.777354 L663.146447,165.318019 L672.687112,155.777354 C673.469961,154.994505 674.739767,154.991029 675.520815,155.772078 C676.307309,156.558572 676.299502,157.821819 675.515539,158.605781 L665.974874,168.146447 L675.515539,177.687112 C676.298388,178.469961 676.301864,179.739767 675.520815,180.520815 C674.734321,181.307309 673.471075,181.299502 672.687112,180.515539 L663.146447,170.974874 L663.146447,170.974874 Z" fill="white"/>
+						</g>
+					</g>
+				</svg>
+				<ul class="navigation__mobile-menu">
+					<li>homepage</li>
+					<li>about</li>
+					<li>curriculum</li>
+					<li>faq</li>
+					<li>info sessions</li>
+					<li>apply</li>
+				</ul>
+
 			</div>
 		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->

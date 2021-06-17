@@ -10,7 +10,16 @@
 
 
 
+
 window.onload = function() {
+  document.getElementsByClassName('navigation__mobile-icon')[0].addEventListener('click', () => {
+    document.getElementsByClassName('navigation__mobile')[0].style = "display: flex !important";
+  })
+
+  document.getElementsByClassName('navigation__mobile-close')[0].addEventListener('click', () => {
+    document.getElementsByClassName('navigation__mobile')[0].style = "display: none !important";
+  })
+
   let right_width = [];
 
   anime({ 
@@ -49,7 +58,6 @@ window.onload = function() {
 
   anime({
     targets: '#bg_1 rect',
-    // opacity: [0, .7, 0.3, 0, .7, 1],
     height: function(el) {
       return [el.height.animVal.value, 0]
     },
@@ -64,9 +72,63 @@ window.onload = function() {
   //   animation.reverse()
   // }, 5000)
 
+  let ima = document.querySelector(".ecoselect__ima"),
+      itp = document.querySelector(".ecoselect__itp"),
+      shanghai = document.querySelector(".ecoselect__shanghai");
 
+
+  ima.addEventListener("mouseover", function( event ) {
+    document.querySelector(".eco__itp").style = "display: none";
+    document.querySelector(".eco__shanghai").style = "display: none";
+    document.querySelector(".eco__ima").style = "display: block";
+
+    ima.style = "color: black";
+    itp.style = "color: #696969";
+    shanghai.style = "color: #696969";
+  }, false);
+
+  itp.addEventListener("mouseover", function( event ) {
+    document.querySelector(".eco__itp").style = "display: block";
+    document.querySelector(".eco__shanghai").style = "display: none";
+    document.querySelector(".eco__ima").style = "display: none";
+
+    itp.style = "color: black";
+    ima.style = "color: #696969";
+    shanghai.style = "color: #696969";
+  }, false);
+
+  shanghai.addEventListener("mouseover", function( event ) {
+    document.querySelector(".eco__itp").style = "display: none";
+    document.querySelector(".eco__shanghai").style = "display: block";
+    document.querySelector(".eco__ima").style = "display: none";
+
+    shanghai.style = "color: black";
+    itp.style = "color: #696969";
+    ima.style = "color: #696969";
+  }, false);
+
+
+  // Carousel
+
+  function getRandomInt(max) {
+    return Math.floor(Math.random() * max);
+  }
+
+  fetch("./wp-content/themes/lowres/assets/carousel.json")
+  .then(response => {
+    return response.json();
+  })
+  .then(data => { 
+    setInterval(() => { 
+      let n = getRandomInt(data.carousel.length);
+
+      document.getElementsByClassName('imageheader')[0].setAttribute('href', `./wp-content/themes/lowres/assets/carousel/${data.carousel[n].image}`)
+    }, data.carousel_settings.time_interval);
+  });
+    
   setTimeout(() => {
-    console.log(right_height)
+
+    console.log(right_height);
     let n = -1;
 
     anime({

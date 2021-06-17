@@ -698,7 +698,58 @@ textarea {
 	text-decoration: none;
 }
 
+.navigation__mobile {
+	width: 100vw;
+	height: 100%;
+	z-index: 100000;
+	background: #57068c;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: none;
+	/* display:flex; */
+  align-items:center;
+}
+
+.navigation__mobile-menu {
+	color: white;
+	font-size: 2rem;
+	text-align: center;
+	width: 100%;
+	display: block !important;
+}
+
+.navigation__mobile-menu li {
+	display: block !important;
+	float: left;
+	clear: left;
+	width: 100%;
+}
+
+.navigation__mobile-icon {
+	line-height: 4rem;
+	cursor: pointer;
+}
+
+.navigation__mobile-close {
+	position: fixed;
+	top: 1rem;
+	right: 1rem;
+	width: 53px;
+	align-self: flex-start;
+	cursor: pointer;
+}
+
+.menu__iconself {
+	height: 30px !important;
+	margin-top: 18px !important;
+}
+
 /* Small menu. */
+.menu-toggle {
+	display: none !important;
+}
+
 .menu-toggle,
 .main-navigation.toggled ul {
 	display: block;
@@ -1037,6 +1088,7 @@ textarea {
 		max-width: 1200px!important;
 		width: 1200px!important;
 	}
+
 }
 
 @media (max-width: 1250px) {
@@ -1090,13 +1142,46 @@ textarea {
     margin-top: 0px !important;
 	}
 
+
+	#shape__shanghai {
+		margin-left: 450px !important;
+		margin-top: 30px !important;
+	}
+
+	.onsite__container {
+		flex-direction: column !important;
+	}
+
+	.onsite_first, .onsite_second {
+		width: 100% !important;
+	}
+
+	.ecosystem {
+		flex-wrap: wrap;
+	}
+
+	.ecosystem__half {
+		width: 100% !important;
+	}
+
+	.ecosystem__list {
+    margin-top: -4rem !important;
+    margin-left: 0rem !important;
+	}
+
+	#ecosystem__blurb {
+    margin-left: 30% !important;
+    margin-top: -100px !important;
+    width: 429px;
+	}
+
 }
 
 @media (min-width: 992px) {
 	.container, .entry-content {
 		width: 970px;
 	}
-	
+
 }
 
 @media (min-width: 768px) {
@@ -1104,6 +1189,12 @@ textarea {
 		width: 750px;
 	}
 
+}
+
+@media (min-width:900px) {
+	.navigation__mobile-icon {
+		display: none;
+	}
 }
 
 @media (max-width: 900px) {
@@ -1125,6 +1216,16 @@ textarea {
 		display: none !important;
 	}
 
+	.menu__items {
+		display: none;
+	}
+
+	.navigation__mobile-icon {
+		display: block;
+	}
+
+	
+
 }
 
 @media (max-width: 800px) {
@@ -1140,7 +1241,6 @@ textarea {
     margin-left: 310px !important;
     margin-top: -10px !important;
 	}
-
 
 	.gridlines {
 		display: none !important;
@@ -1161,6 +1261,11 @@ textarea {
 	#shape__berlin {
     margin-left: -270px !important;
     margin-top: 0px !important;
+	}
+
+	#shape__shanghai {
+		margin-left: 250px !important;
+		margin-top: 30px !important;
 	}
 
 	.global-nav-container {
@@ -1201,6 +1306,7 @@ textarea {
 		min-width: 100% !important;
 		margin-top: 2rem;
 	}
+
 }
 
 @media (max-width: 550px) {
@@ -1227,6 +1333,21 @@ textarea {
 
 	.gridlines {
 		display: none !important;
+	}
+	#ecosystem__blurb {
+    margin-left: 60% !important;
+    margin-top: -90px !important;
+    width: 329px !important;
+	}
+
+	.onsite__text h3 {
+		margin-left: -85px !important;
+    width: 200px !important;
+	}
+
+	.onsite__text p {
+		width: 200px !important;
+    margin-left: -85px !important;
 	}
 }
 
@@ -1287,7 +1408,7 @@ h4 {
 	justify-content: center;
 }
 
-.site-header--nobg svg {
+.site-header--svg {
 	height: 795px;
 	margin-top: -100px;
 }
@@ -1448,7 +1569,6 @@ a, a:visited {
 
 .frontpage__notificationbox {
 	width: 100%;
-	/* background: #57068c; */
 	background: #1CA698;
 	padding: 3rem;
 	display: flex;
@@ -1472,6 +1592,12 @@ a, a:visited {
 	color: black;
 	margin-top: 3rem;
 	align-self: center;
+}
+
+.frontpage__cta:hover {
+	background: black;
+	color: white;
+	cursor: pointer;
 }
 
 .frontpage__notificationbox p {
@@ -1648,9 +1774,6 @@ margin-top: 401px;
 }
 
 .onsite__text {
-	/* display: inline; */
-	/* margin-left: 200px; */
-  /* box-shadow: 5px 0 0 white, -5px 0 0 white; */
 	background: white;
 	margin-left: 125px;
 	padding: 1rem 2rem;
@@ -1830,6 +1953,10 @@ ul {
 	margin-bottom: 100px;
 }
 
+.footer__qr {
+	width:70px;
+}
+
 .footer ul {
 	list-style-type: none;
 	width: 25%;
@@ -1857,6 +1984,11 @@ ul {
 	padding: .6rem 1.5rem;
 	color: white;
 	margin-top: 1rem;
+}
+
+.footer__cta:hover {
+	color: #1CA698;
+	background: #e8e8e8;
 }
 
 .container__widthfix {

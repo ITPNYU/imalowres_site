@@ -28,14 +28,19 @@
 
 		<ul>
 			<li class="footer__heading">Social media</li>
-			<li>Instagram</li>
-			<li>Twitter</li>
-			<li>WeChat</li>
-			<li class="footer__margin">Accessibility statement</li>
+			<li><a href="https://www.instagram.com/imalr_nyu/" target="_blank">Instagram</a></li>
+			<li><a href="https://twitter.com/imalr_nyu" target="_blank">Twitter</a></li>
+			<li>WeChat
+			<br />
+			<!-- <img src='wp-content/themes/lowres/assets/wechat.png' class='footer__qr'/></li> -->
 		</ul>
 
 		<ul class="footer__ctacontainer">
-			<li class="footer__cta">Contact Us</li>
+			<a href="mailto: lowres@itp.nyu.edu">
+				<li class="footer__cta">Contact Us</li>
+				<li class="footer__margin">Accessibility statement</li>
+
+			</a>
 		</ul>
 
 	</div>

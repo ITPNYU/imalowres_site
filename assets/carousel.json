@@ -1,0 +1,19 @@
+{
+  "carousel_settings": {
+    "time_interval": 10000
+  },
+  "carousel": [
+    {
+      "image": "01.jpg",
+      "title": "Description One"
+    },
+    {
+      "image": "02.jpg",
+      "title": "Description Two"
+    },
+    {
+      "image": "03.jpg",
+      "title": "Description Three"
+    }
+  ]
+}
