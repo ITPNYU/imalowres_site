@@ -31,7 +31,7 @@
     </svg>
 
 
-      <h3>NYU New York,<br/>Summer 2020</h3>
+      <h3>NYU New York,<br/>Summer 2021</h3>
       <div class="box__circle"></div>
       <p>This 5-week session will<br/>be spent at NYU’s new “Media, Technology & Arts” building in Brooklyn. Students will benefit from the network, resources, and 40-year history of ITP in New York! Check out a Video Tour of the NYU NY space</p>
     </div>
@@ -66,7 +66,7 @@
 
 
 
-      <h3 class="cities__rightalign">NYU Berlin,<br/>January 2021</h3>
+      <h3 class="cities__rightalign">NYU Berlin,<br/>January 2022</h3>
       <div class="box_trapezoid"></div>
       <p class="cities__rightalign">Students will reconnect with one another for an immersive 10-day learning experience in Berlin, a hub for emerging media arts, design and culture.</p>
     </div>
@@ -99,7 +99,7 @@
     </g>
     </svg>
 
-    <h3>NYU Shanghai,<br/>Summer 2021</h3>
+    <h3>NYU Shanghai,<br/>Summer 2022</h3>
     <div class="box__three"></div>
     <p>A 5-week session at NYU Shanghai where students will explore curricular opportunities and experience China’s interactive media ecosystem firsthand. Check out a Video Tour of the NYUSH space.</p>
   </div>

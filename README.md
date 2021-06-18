@@ -1,8 +1,10 @@
 # NYU ITP LowRes theme
-===
 
 ## Frontpage
 The frontpage ```frontpage.php``` is hardcoded in the theme. It consists of multiple elements that all start with ```front-page-*.php```, with the exception of the header and footer that uses the regular Wordpress template parts. The mobile menu is hard coded as well in ```header.php```.
+
+### Editing content on the homepage
+The announcement part can be updated in the ```front-page-info-block.php```. The years for the cities can be updated in ```front-page-three-cities.php```
 
 ### Carousel
 Carousel settings can be found in ```/assets/carousel.json```. The carousel is very bare bones right now. Every x seconds it picks a random position in an array with images. To change the time interval please change ```time_interval``` value (ms). Images of the carousel can be placed in the ```assets/carousel``` folder.

@@ -2,8 +2,8 @@
   <div class="frontpage__notificationbox">
     <div class="frontpage__notificationtext">
       <p>We have 2 online information sessions scheduled for this Fall:<br/><br/>
-      Monday, October 12, 2020 at 9pm ET. Here is the video recording.<br/>
-      Wednesday, Sept 23, 2020 at 11am ET. Here is the video recording from our first session.
+      Monday, October 12, 2021 at 9pm ET. Here is the video recording.<br/>
+      Wednesday, Sept 23, 2021 at 11am ET. Here is the video recording from our first session.
       </p>
     </div>
 
