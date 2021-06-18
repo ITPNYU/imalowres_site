@@ -36,7 +36,7 @@
 		</ul>
 
 		<ul class="footer__ctacontainer">
-			<a href="mailto: lowres@itp.nyu.edu">
+			<a href="../apply">
 				<li class="footer__cta">Contact Us</li>
 				<li class="footer__margin">Accessibility statement</li>
 
