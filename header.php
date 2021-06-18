@@ -1895,13 +1895,15 @@
 						</g>
 					</g>
 				</svg>
+
 				<ul class="navigation__mobile-menu">
-					<li>homepage</li>
-					<li>about</li>
-					<li>curriculum</li>
-					<li>faq</li>
-					<li>info sessions</li>
-					<li>apply</li>
+					<a href="https://itp.nyu.edu/lowres/"><li>homepage</li></a>
+					<a href="https://itp.nyu.edu/lowres/about/"><li>about</li></a>
+					<a href="https://itp.nyu.edu/lowres/people/"><li>people</li></a>
+					<a href="https://itp.nyu.edu/lowres/curriculum/"><li>curriculum</li></a>
+					<a href="https://itp.nyu.edu/lowres/faq/"><li>faq</li></a>
+					<a href="https://itp.nyu.edu/lowres/info-sessions/"><li>info sessions</li></a>
+					<a href="https://itp.nyu.edu/lowres/info-apply/"><li>apply</li></a>
 				</ul>
 
 			</div>

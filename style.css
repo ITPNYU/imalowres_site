@@ -719,6 +719,10 @@ textarea {
 	display: block !important;
 }
 
+.navigation__mobile-menu a, .navigation__mobile-menu a:visited {
+	color: white;
+}
+
 .navigation__mobile-menu li {
 	display: block !important;
 	float: left;
