@@ -49,6 +49,9 @@ Consists of a 4 column grid. First column contains the team. All parts are raw h
 <div class="profile__bottomline"></div>
 ```
 
+## Mobile menu
+Is currently hard coded in the ```header.php``` block.
+
 ## Plugins
 
 * All-in-one WP Migration
