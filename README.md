@@ -15,7 +15,7 @@ The most important parts for editing are ```front-page-info-block.php``` and the
 | front-page-intro.php        | Intro text introducing the program           |
 | front-page-three-cities.php | Three cities introduction                    |
 
-### Homepage JSON
+### Uploading images and swapping them
 All the homepage imagery – with the exception of the carousel, please see next paragraph – can be changed in ```/assets/homepage.json```. All the images are currently uploaded in the IMA Media File Uploader, but it's advised to upload these images in the LowRes Media File Uploader.
 
 ```
