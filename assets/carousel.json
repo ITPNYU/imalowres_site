@@ -17,6 +17,11 @@
       "image": "https://itp.nyu.edu/ima/wp-content/uploads/2021/06/03.jpg",
       "title": "Description Three",
       "alt_description": "Image description"
+    },
+    {
+      "image": "https://itp.nyu.edu/ima/wp-content/uploads/2021/06/04.jpg",
+      "title": "Title 4",
+      "alt_description": "Image description"
     }
   ]
 }
