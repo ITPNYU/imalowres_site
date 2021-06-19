@@ -4,16 +4,19 @@
   },
   "carousel": [
     {
-      "image": "01.jpg",
-      "title": "Description One"
+      "image": "https://itp.nyu.edu/ima/wp-content/uploads/2021/06/01.jpg",
+      "title": "Description One",
+      "alt_description": "Image description"
     },
     {
-      "image": "02.jpg",
-      "title": "Description Two"
+      "image": "https://itp.nyu.edu/ima/wp-content/uploads/2021/06/02.jpg",
+      "title": "Description Two",
+      "alt_description": "Image description"
     },
     {
-      "image": "03.jpg",
-      "title": "Description Three"
+      "image": "https://itp.nyu.edu/ima/wp-content/uploads/2021/06/03.jpg",
+      "title": "Description Three",
+      "alt_description": "Image description"
     }
   ]
 }

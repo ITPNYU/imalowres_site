@@ -16,15 +16,15 @@
 
 
             <g class="ecosystem__image eco__ima">
-                <image style="overflow:visible;" width="660" height="420" id="w7jd0q_2_" xlink:href="wp-content/themes/lowres/assets/imafloor.jpg"  transform="matrix(0.9042 0 0 0.9042 -75.2068 -0.1629)"></image>
+                <image style="overflow:visible;" width="660" height="420" id="imafloor" xlink:href="wp-content/themes/lowres/assets/imafloor.jpg"  transform="matrix(0.9042 0 0 0.9042 -75.2068 -0.1629)"></image>
             </g>
 
             <g class="ecosystem__image eco__shanghai">
-              <image style="overflow:visible;" width="660" height="420" id="w7jd0q_2_" xlink:href="wp-content/themes/lowres/assets/shanghaifloor.jpg"  transform="matrix(0.9042 0 0 0.9042 -75.2068 -0.1629)"></image>
+              <image style="overflow:visible;" width="660" height="420" id="shanghaifloor" xlink:href="wp-content/themes/lowres/assets/shanghaifloor.jpg"  transform="matrix(0.9042 0 0 0.9042 -75.2068 -0.1629)"></image>
             </g>
 
             <g class="ecosystem__image eco__itp">
-              <image style="overflow:visible;" width="660" height="420" id="w7jd0q_2_" xlink:href="wp-content/themes/lowres/assets/itpfloor.jpg"  transform="matrix(0.9042 0 0 0.9042 -75.2068 -0.1629)"></image>
+              <image style="overflow:visible;" width="660" height="420" id="itpfloor" xlink:href="wp-content/themes/lowres/assets/itpfloor.jpg"  transform="matrix(0.9042 0 0 0.9042 -75.2068 -0.1629)"></image>
             </g>
 
           </g>

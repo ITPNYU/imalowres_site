@@ -125,6 +125,23 @@ window.onload = function() {
       document.getElementsByClassName('imageheader')[0].setAttribute('href', `./wp-content/themes/lowres/assets/carousel/${data.carousel[n].image}`)
     }, data.carousel_settings.time_interval);
   });
+
+
+  
+
+  fetch("./wp-content/themes/lowres/assets/homepage.json")
+  .then(response => {
+    return response.json();
+  })
+  .then(data => { 
+    console.log(data);
+
+    document.getElementById('itpfloor').setAttribute('href', data.ecosystem.itp.image_url);
+    document.getElementById('imafloor').setAttribute('href', data.ecosystem.ima.image_url);
+    document.getElementById('shanghaifloor').setAttribute('href', data.ecosystem.ima_shanghai.image_url);
+  });
+
+
     
   setTimeout(() => {
 

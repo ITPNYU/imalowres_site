@@ -1,0 +1,33 @@
+{
+  "note": "in case these images go offline please refer to the github repo",
+  "three_cities": {
+    "new_york": {
+      "image_url": "https://itp.nyu.edu/ima/wp-content/uploads/2021/06/bg_nyc-min-1024x1024.jpg"
+    },
+    "berlin": {
+      "image_url": "https://itp.nyu.edu/ima/wp-content/uploads/2021/06/berlin-1024x899.jpg"
+    },
+    "shanghai": {
+      "image_url": "https://itp.nyu.edu/ima/wp-content/uploads/2021/06/bg_shanghai.jpg"
+    }
+  },
+  "online_onsite": {
+    "online": {
+      "image_url": "https://itp.nyu.edu/ima/wp-content/uploads/2021/06/87904966345D0F29.jpg"
+    },
+    "offsite": {
+      "image_url": "https://itp.nyu.edu/ima/wp-content/uploads/2021/06/8798B472EE6B6370.png"
+    }
+  },
+  "ecosystem": {
+    "itp": {
+      "image_url": "https://itp.nyu.edu/ima/wp-content/uploads/2021/06/itpfloor.jpg"
+    },
+    "ima": {
+      "image_url": "https://itp.nyu.edu/ima/wp-content/uploads/2021/06/imafloor.jpg"
+    },
+    "ima_shanghai": {
+      "image_url": "https://itp.nyu.edu/ima/wp-content/uploads/2021/06/shanghaifloor.jpg"
+    }
+  }
+}
