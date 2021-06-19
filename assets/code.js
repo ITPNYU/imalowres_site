@@ -15,9 +15,9 @@ window.onload = function() {
       right_width.push(el.width.animVal.value)
       return [el.width.animVal.value, 0]
     },
-    duration: 1000,
+    duration: 500,
     easing: 'easeInOutQuad',
-    delay: anime.stagger(50)
+    delay: anime.stagger(5)
   });
 
   let right_height = [];
@@ -30,7 +30,7 @@ window.onload = function() {
     },
     duration: 1000,
     easing: 'easeInOutQuad',
-    delay: anime.stagger(50)
+    delay: anime.stagger(40)
   });
 
   anime({
@@ -52,8 +52,6 @@ window.onload = function() {
     easing: 'easeInOutQuad',
     delay: anime.stagger(50)
   });
-
-
 
   // setTimeout(() => {
   //   animation.reverse()
