@@ -104,9 +104,9 @@ Consists of a 4 column grid. First column contains the team. All parts are raw h
 Is currently hard coded in the ```header.php``` block.
 
 ## To do
-[ ] Mobile menu is currently hard coded. Would be better if this is generated dynamically
-[ ] Settings on the front page are currently edited through ```homepage.json``` and ```carousel.json```. Would be better to create a Wordpress plugin for this that generates a JSON.
-[ ] The current carousel doesn't meet the WCAG standards.
+- [ ] Mobile menu is currently hard coded. Would be better if this is generated dynamically
+- [ ] Settings on the front page are currently edited through ```homepage.json``` and ```carousel.json```. Would be better to create a Wordpress plugin for this that generates a JSON.
+- [ ] The current carousel doesn't meet the WCAG standards.
 
 ## Plugins
 
