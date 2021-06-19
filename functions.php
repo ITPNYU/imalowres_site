@@ -139,15 +139,21 @@ add_action( 'widgets_init', 'lowres_widgets_init' );
 /**
  * Enqueue scripts and styles.
  */
+add_action('wp_enqueue_scripts', 'qg_enqueue');
+function qg_enqueue() {
+    wp_enqueue_script(
+        'qgjs',
+      	get_template_directory_uri() . '/assets/code.js'
+    );
+}
+
+
 function lowres_scripts() {
 	wp_enqueue_style( 'lowres-style', get_stylesheet_uri(), array(), _S_VERSION );
 	wp_style_add_data( 'lowres-style', 'rtl', 'replace' );
 
 	// wp_enqueue_script( 'lowres-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
 	// wp_enqueue_script( 'animation', get_template_directory_uri() . '/js/animation.js' );
-
-
-
   
 
 	// if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {

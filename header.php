@@ -16,9 +16,11 @@
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1 minimum-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
-	<script src="http://localhost:8888/wordpress/wp-content/themes/lowres/assets/animation.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<!-- <script src="./wp-content/themes/lowres/assets/animation.js"></script> -->
+	<!-- <script src="http://localhost:8888/wordpress/wp-content/themes/lowres/assets/code.js"></script> -->
 	<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-	<script src='http://localhost:8888/wordpress/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=6.0.2' id='wpb_composer_front_js-js'></script>
+	<!-- <script src='http://localhost:8888/wordpress/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=6.0.2' id='wpb_composer_front_js-js'></script> -->
 	<!-- <script src='http://localhost:8888/wordpress/wp-includes/js/wp-embed.min.js?ver=5.5.3' id='wp-embed-js'></script> -->
 	<!-- <script src='http://localhost:8888/wordpress/wp-includes/js/hoverintent-js.min.js?ver=2.2.1' id='hoverintent-js-js'></script> -->
 
