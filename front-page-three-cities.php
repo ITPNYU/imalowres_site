@@ -20,7 +20,7 @@
       </clipPath>
       <g style="clip-path:url(#SVGID_5_);">
         
-          <image style="overflow:visible;" width="1104" height="1104" xlink:href="wp-content/themes/lowres/assets/bg_nyc-min.jpg"  transform="matrix(0.2181 0 0 0.2181 2.896 -34.2846)">
+          <image style="overflow:visible;" width="1104" height="1104" id="image_nyc" xlink:href="wp-content/themes/lowres/assets/bg_nyc-min.jpg"  transform="matrix(0.2181 0 0 0.2181 2.896 -34.2846)">
         </image>
       </g>
     </g>
@@ -54,7 +54,7 @@
       </clipPath>
       <g class="st10">
         
-          <image style="overflow:visible;" width="1738" height="1528" xlink:href="wp-content/themes/lowres/assets/berlin.jpg"  transform="matrix(0.1789 0 0 0.1789 -67.1936 -23.2947)">
+          <image style="overflow:visible;" width="1738" height="1528" id="image_berlin" xlink:href="wp-content/themes/lowres/assets/berlin.jpg"  transform="matrix(0.1789 0 0 0.1789 -67.1936 -23.2947)">
         </image>
       </g>
     </g>
@@ -88,7 +88,7 @@
       </clipPath>
       <g style="clip-path:url(#SVGID_20_);">
         
-          <image style="overflow:visible;" width="956" height="956" xlink:href="wp-content/themes/lowres/assets/bg_shanghai.jpg"  transform="matrix(0.1992 0 0 0.1992 -7.2906 -7.1874)">
+          <image style="overflow:visible;" width="956" height="956" id="image_shanghai" xlink:href="wp-content/themes/lowres/assets/bg_shanghai.jpg"  transform="matrix(0.1992 0 0 0.1992 -7.2906 -7.1874)">
         </image>
       </g>
     </g>

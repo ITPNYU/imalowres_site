@@ -26,9 +26,6 @@ get_header();
       ?>
 
   
-
-
-
       <div class="row onsite__container">
         <div class="onsite_first">
 
@@ -38,7 +35,7 @@ get_header();
           .st0-o{fill:#FFFFFF;}
         </style>
         <g id="Laag_2">
-          <image style="overflow:visible;" width="407" height="571" id="t9iHOs_1_" xlink:href="wp-content/themes/lowres/assets/87904966345D0F29.jpg"  transform="matrix(1.2235 0 0 1.2235 0.5 0)"></image>
+          <image style="overflow:visible;" width="407" height="571" id="onsite" xlink:href="wp-content/themes/lowres/assets/87904966345D0F29.jpg"  transform="matrix(1.2235 0 0 1.2235 0.5 0)"></image>
         </g>
 
 <g id="Laag_1">
@@ -134,7 +131,7 @@ get_header();
           <g id="Laag_2">
             <g id="bQKPwQ.tif">
               
-                <image style="overflow:visible;" width="407" height="571" id="Laag_1_2_" xlink:href="wp-content/themes/lowres/assets/8798B472EE6B6370.png"  transform="matrix(1.2246 0 0 1.2246 0.3696 -0.6721)"></image>
+                <image style="overflow:visible;" width="407" height="571" id="online" xlink:href="wp-content/themes/lowres/assets/8798B472EE6B6370.png"  transform="matrix(1.2246 0 0 1.2246 0.3696 -0.6721)"></image>
             </g>
           </g>
           <g id="Laag_1">

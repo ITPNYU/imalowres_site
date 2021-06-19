@@ -127,18 +127,28 @@ window.onload = function() {
   });
 
 
-  
+  // Homepage
 
   fetch("./wp-content/themes/lowres/assets/homepage.json")
   .then(response => {
     return response.json();
   })
   .then(data => { 
-    console.log(data);
+    // three cities
+    document.getElementById('image_berlin').setAttribute('href', data.three_cities.berlin.image_url);
+    document.getElementById('image_nyc').setAttribute('href', data.three_cities.new_york.image_url);
+    document.getElementById('image_shanghai').setAttribute('href', data.three_cities.shanghai.image_url);
 
-    document.getElementById('itpfloor').setAttribute('href', data.ecosystem.itp.image_url);
-    document.getElementById('imafloor').setAttribute('href', data.ecosystem.ima.image_url);
+    // onsite online
+    document.getElementById('onsite').setAttribute('href', data.online_onsite.online.image_url);
+    document.getElementById('online').setAttribute('href', data.online_onsite.onsite.image_url);
+
+    // ecosystem
     document.getElementById('shanghaifloor').setAttribute('href', data.ecosystem.ima_shanghai.image_url);
+    document.getElementById('shanghaifloor').setAttribute('href', data.ecosystem.ima_shanghai.image_url);
+    document.getElementById('shanghaifloor').setAttribute('href', data.ecosystem.ima_shanghai.image_url);
+
+
   });
 
 
